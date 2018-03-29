@@ -1,0 +1,55 @@
+.App-logo {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  margin: 10px 15px;
+  width: 50px;
+  height: auto;
+}
+h1.App-title {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+}
+
+
+/* Hamburger menu */
+.App-menu {
+ .App-menu__top {
+    transform: rotate(0);
+    background-color: #FF0048;
+ }
+ .App-menu__middle {
+   opacity: 1;
+   background-color: #FF0048;
+ }
+ .App-menu__bottom {
+   transform: rotate(0);
+   background-color: #FF0048;
+  }
+}
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+
+  .App-menu:hover {
+    background: transparent !important;
+  }
+
+  .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+  }
+  .App-menu__top {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .App-menu__middle {
+    opacity: 0;
+  }
+  .App-menu__bottom {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+}
